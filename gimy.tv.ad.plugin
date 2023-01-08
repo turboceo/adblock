@@ -1,0 +1,9 @@
+#!name= 影视迷去广告
+#!desc= Gimy.tv removes ad.
+#!icon= https://gimy.tv/images/favicon.png
+
+[Script]
+http-response ^https?:\/\/gimy\.tv\/.*\.html script-path=https://gist.githubusercontent.com/turboceo/9f9589ba505fee0238822b6effa0f6a5/raw/1df3bb1f8b82ee98d6a89ed4e7244cc67d1edc55/gimy.tv.ad.js, requires-body=true, tag=影视迷去浮动广告
+
+[MITM]
+hostname = gimy.tv
