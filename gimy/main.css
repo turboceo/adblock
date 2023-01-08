@@ -1,3 +1,4 @@
-#pc_rb_float{
-    display:none!important
+#pc_rb_float, 
+#adwrap {
+    display:none !important
 }

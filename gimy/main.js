@@ -1,6 +1,5 @@
-$notification.post("这是主标题", "这是副标题", "hello-cron!");
-let Oldone = '3000'
-let Newone = '1000000000000';
-let body = $response.body
-.replace(Oldone, Newone);
+alert('inject..')
+let Oldone = '</head>'
+let Newone = '<link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/turboceo/adblock/main/gimy/main.css\" type=\"text/css\"></head>';
+let body = $response.body.replace(Oldone, Newone);
 $done({body});
