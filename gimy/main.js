@@ -1,6 +1,6 @@
 alert('inject..')
-let Oldone = '<div class="pc_rb_float" id="pc_rb_float">'
-let Newone = '';
+let Oldone = '3000'
+let Newone = '1000000000000';
 let body = $response.body
 .replace(Oldone, Newone);
 $done({body});
